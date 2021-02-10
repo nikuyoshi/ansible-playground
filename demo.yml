@@ -1,0 +1,6 @@
+- name: Demo Ansible playbook
+  hosts: localhost
+  become: no
+  connection: local
+  roles:
+    - role: demo
